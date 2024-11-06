@@ -1,0 +1,72 @@
+/* components/Home.module.css */
+.home {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 2rem;
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.image {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 2rem;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.intro {
+  max-width: 90%;
+  text-align: center;
+}
+
+.intro h1 {
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+}
+
+.button {
+  background-color: #ff9800;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #e68900;
+}
+
+@media (min-width: 768px) {
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 65vh;
+  
+  }
+
+  .image {
+    max-width: 45%;
+    margin-bottom: 0;
+    position: relative;
+    left: 150px;
+  }
+
+  .intro {
+    max-width: 50%;
+    text-align: left;
+  }
+}

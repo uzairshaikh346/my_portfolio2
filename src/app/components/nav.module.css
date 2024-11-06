@@ -1,0 +1,38 @@
+/* components/Navbar.css */
+.navbar {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .logo {
+    color: #00bcd4;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .nav_links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    margin-right: 50px;
+  }
+  
+  .link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    list-style-type: none;
+  }
+  
+  .link:hover{
+    background-color: #00bcd4;
+  }
+ 
+  
